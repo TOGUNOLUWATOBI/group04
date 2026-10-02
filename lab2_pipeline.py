@@ -522,7 +522,7 @@ class Lab2Pipeline:
                 'summary': summary,
                 'elapsed_time': elapsed_time,
             }
-
+        #"end of try block"
         except Exception as e:
             logger.error(f"Pipeline failed: {e}")
             raise
